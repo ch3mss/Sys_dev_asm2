@@ -1,0 +1,103 @@
+[?? X P:20160 T:008684 D:-1 06-03-24 08:22:09.210 INFO] Logging started
+[?? X P:20160 T:008684 D:04 06-03-24 08:22:09.310 WARN] App.xaml/InitializeModel > 
+
+
+
+[?? X P:20160 T:008684 D:04 06-03-24 08:22:09.310 WARN] App.xaml/InitializeModel >    ---------------------------------------------------
+[?? X P:20160 T:008684 D:04 06-03-24 08:22:09.310 WARN] App.xaml/InitializeModel >   |                Application Started                |
+[?? X P:20160 T:008684 D:04 06-03-24 08:22:09.310 WARN] App.xaml/InitializeModel >   |---------------------------------------------------|
+[?? X P:20160 T:008684 D:04 06-03-24 08:22:09.310 WARN] App.xaml/InitializeModel >   |              Build: Version 2.2407.10             |
+[?? X P:20160 T:008684 D:04 06-03-24 08:22:09.310 WARN] App.xaml/InitializeModel >   |         Start Time: 2024-03-06, 08:22:09          |
+[?? X P:20160 T:008684 D:04 06-03-24 08:22:09.310 WARN] App.xaml/InitializeModel >   |         Build Time: 2024-02-27, 23:29:09          |
+[?? X P:20160 T:008684 D:04 06-03-24 08:22:09.310 WARN] App.xaml/InitializeModel >    ---------------------------------------------------
+
+
+[?? X P:20160 T:023972 D:-1 06-03-24 08:22:09.410 WARN] voip > wa_media_api.c  Warning: codec priority set failed for AMR, status: 70006
+[?? X P:20160 T:023972 D:-1 06-03-24 08:22:09.410 WARN] voip > wa_media_api.c  Warning: codec priority set failed for PCMU, status: 70006
+[?? X P:20160 T:023972 D:-1 06-03-24 08:22:09.426 WARN] voip > device_manager_win.cpp  [Stateful] No default device found with ID []
+[?? W P:20160 T:023972 D:-1 06-03-24 08:22:10.193 ERROR] LogComError > WhatsAppNative::FindFile::FindFirstFileImpl, line 17: 0x80070003: The system cannot find the path specified.
+[FG W P:20160 T:023972 D:00 06-03-24 08:22:10.393 WARN] DirectoryNotFoundException: WaApp/FindTempFilesForPurge > finding temp files exception
+  -- DirectoryNotFoundException, "The system cannot find the path specified.
+
+Exception thrown because of unexpected result: 0x80070003"
+   at System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(Int32, RuntimeTypeHandle) + 0x21
+   at __Interop.ComCallHelpers.Call(__ComObject, RuntimeTypeHandle, Int32, HSTRING, Void*) + 0xcf
+   at __Interop.ForwardComStubs.Stub_61[TThis](__ComObject, String, Int32) + 0x84
+   at WhatsAppNative.FindFile.FindFirstFileImpl(String) + 0x1e
+   at WhatsApp.MediaStorage.<FindFiles>d__21.MoveNext() + 0x6e
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext() + 0x5e
+   at System.Collections.Generic.LargeArrayBuilder`1.AddRange(IEnumerable`1) + 0x57
+   at System.Collections.Generic.EnumerableHelpers.ToArray[T](IEnumerable`1) + 0x9e
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1) + 0x34
+   at WhatsApp.WaApp.FindTempFilesForPurge() + 0xb1
+
+
+[FG W P:20160 T:023564 D:00 06-03-24 08:22:15.625 WARN] Exception: LaunchTimeStamps/ScheduleFieldStats > Not sending fieldstats - no navigation or not to MainLayoutView
+   at WhatsApp.FailuresService.Count(String, String, String) + 0x9
+   at WhatsApp.LaunchTimeStamps.<ScheduleFieldStats>d__21.MoveNext() + 0x15c
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.MoveNextRunner.<>c.<CallMoveNext>b__3_0(Object) + 0x14
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext, ContextCallback, Object) + 0xc6
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.MoveNextRunner.CallMoveNext() + 0x8b
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action, Boolean, Task&) + 0x58
+   at System.Threading.Tasks.Task.FinishContinuations() + 0xdd
+   at System.Threading.Tasks.Task.FinishStageThree() + 0x41
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult) + 0x85
+   at System.Threading.Tasks.Task.DelayPromise.Complete() + 0x7d
+   at System.Threading.Tasks.Task.<>c.<Delay>b__248_0(Object) + 0x1f
+   at System.Threading.TimerQueueTimer.CallCallbackInContext(Object) + 0x3b
+   at System.Threading.ContextCallback.InvokeOpenStaticThunk(Object) + 0x22
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext, ContextCallback, Object) + 0xc6
+   at System.Threading.TimerQueueTimer.CallCallback() + 0x91
+   at System.Threading.TimerQueueTimer.Fire() + 0x7e
+   at System.Threading.TimerQueue.FireNextTimers() + 0xf2
+   at System.Threading.TimerQueue.TimerCallback(IntPtr, IntPtr, IntPtr) + 0x69
+
+[FG W P:20160 T:023972 D:-1 06-03-24 08:22:20.260 WARN] voip > device_manager_win.cpp ![Stateful] No default device found with ID []
+[FG W P:20160 T:023892 D:00 06-03-24 08:23:29.168 WARN] Exception: WailRegistrationAdapter/StartRegistration > Registration flow error: error_kind: REGISTRATION_CANCELED(26), error_code: -1, msg: "Registration canceled"
+   at WhatsApp.FailuresService.Count(String, String, String) + 0x9
+   at WhatsApp.Design.Registration.WailRegistrationAdapter.<<StartRegistration>g__Start|25_0>d.MoveNext() + 0x119
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.MoveNextRunner.<>c.<CallMoveNext>b__3_0(Object) + 0x14
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext, ContextCallback, Object) + 0xc6
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.MoveNextRunner.CallMoveNext() + 0x8b
+   at WhatsApp.DispatcherExtensions.InvokeAction(Object) + 0x35
+   at System.Threading.ContextCallback.InvokeOpenStaticThunk(Object) + 0x22
+   at WhatsApp.ConcurrentQueueDispatcher.InvokeQueueItems(Object) + 0x112
+   at System.Threading.QueueUserWorkItemCallbackDefaultContext.<>c.<.cctor>b__5_0(Object) + 0x46
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext, ContextCallback, Object) + 0xc6
+   at System.Threading.ExecutionContext.Run(ExecutionContext, ContextCallback, Object) + 0xf
+   at System.Threading.QueueUserWorkItemCallbackDefaultContext.ExecuteWorkItem() + 0x50
+   at System.Threading.ThreadPoolWorkQueue.Dispatch() + 0x1c8
+   at System.Threading.ThreadPool.DispatchCallback(IntPtr, IntPtr, IntPtr) + 0x4b
+
+[FG W P:20160 T:023976 D:00 06-03-24 08:34:01.258 WARN] Exception: WailRegistrationAdapter/StartRegistration > Timeout Error: future has timed out
+   at WhatsApp.FailuresService.Count(String, String, String) + 0x9
+   at WhatsApp.Design.Registration.WailRegistrationAdapter.<<StartRegistration>g__Start|25_0>d.MoveNext() + 0x119
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.MoveNextRunner.<>c.<CallMoveNext>b__3_0(Object) + 0x14
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext, ContextCallback, Object) + 0xc6
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.MoveNextRunner.CallMoveNext() + 0x8b
+   at WhatsApp.DispatcherExtensions.InvokeAction(Object) + 0x35
+   at System.Threading.ContextCallback.InvokeOpenStaticThunk(Object) + 0x22
+   at WhatsApp.ConcurrentQueueDispatcher.InvokeQueueItems(Object) + 0x112
+   at System.Threading.QueueUserWorkItemCallbackDefaultContext.<>c.<.cctor>b__5_0(Object) + 0x46
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext, ContextCallback, Object) + 0xc6
+   at System.Threading.ExecutionContext.Run(ExecutionContext, ContextCallback, Object) + 0xf
+   at System.Threading.QueueUserWorkItemCallbackDefaultContext.ExecuteWorkItem() + 0x50
+   at System.Threading.ThreadPoolWorkQueue.Dispatch() + 0x1c8
+   at System.Threading.ThreadPool.DispatchCallback(IntPtr, IntPtr, IntPtr) + 0x4b
+
+[FG W P:20160 T:023892 D:00 06-03-24 08:38:09.805 WARN] Exception: WailRegistrationAdapter/StartRegistration > Registration flow error: error_kind: ERROR_QR_CODE_EXPIRED(5), error_code: -1, msg: "[registration] QR_CODES_EXPIRED_TIMEOUT 160s"
+   at WhatsApp.FailuresService.Count(String, String, String) + 0x9
+   at WhatsApp.Design.Registration.WailRegistrationAdapter.<<StartRegistration>g__Start|25_0>d.MoveNext() + 0x119
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.MoveNextRunner.<>c.<CallMoveNext>b__3_0(Object) + 0x14
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext, ContextCallback, Object) + 0xc6
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.MoveNextRunner.CallMoveNext() + 0x8b
+   at WhatsApp.DispatcherExtensions.InvokeAction(Object) + 0x35
+   at System.Threading.ContextCallback.InvokeOpenStaticThunk(Object) + 0x22
+   at WhatsApp.ConcurrentQueueDispatcher.InvokeQueueItems(Object) + 0x112
+   at System.Threading.QueueUserWorkItemCallbackDefaultContext.<>c.<.cctor>b__5_0(Object) + 0x46
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext, ContextCallback, Object) + 0xc6
+   at System.Threading.ExecutionContext.Run(ExecutionContext, ContextCallback, Object) + 0xf
+   at System.Threading.QueueUserWorkItemCallbackDefaultContext.ExecuteWorkItem() + 0x50
+   at System.Threading.ThreadPoolWorkQueue.Dispatch() + 0x1c8
+   at System.Threading.ThreadPool.DispatchCallback(IntPtr, IntPtr, IntPtr) + 0x4b
+

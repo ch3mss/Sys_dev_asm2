@@ -1,0 +1,13 @@
+Log file created: 12/18/23 02:29:57
+-------------------------------------
+<2320> <AnywhereLocalHub> <5> 2023-12-18T02:29:57.827441 TeamProjectsLocalHub.2, platform: "Windows", sysVersion: "2.0.DVA_PATCH_VERSION", dvaVersion: "24.1.0", build: "", dataModel: "2.0.1", suiteClient: "2024"
+<2672> <LiveEditClient> <0> 2023-12-18T02:29:57.892076 nil threadID='2672()', "event.type":"initSDK" , "les.analyticsEnabled":"0"
+<2320> <AnywhereLocalHub> <5> 2023-12-18T02:29:57.904764 Started local HTTP server, port: 50268
+<21484> <AnywhereLocalHub> <5> 2023-12-18T02:29:57.906792 Client connected, session: 3
+<21484> <AnywhereLocalHub> <5> 2023-12-18T02:29:57.908969 Client connected, info: {"build":"85","name":"Premiere Pro","version":"24.1.0"}, session: 3
+<10220> <HubSync> <5> 2023-12-18T02:30:39.574289 RemoteLoginService::Login, server: "https://cc-api-teamprojects.adobe.io:443"
+<17412> <AnywhereLocalHub> <5> 2023-12-18T02:33:03.961682 Client disconnected, session: 3
+<2320> <AnywhereLocalHub> <5> 2023-12-18T02:33:08.978769 Closing SyncBox
+<2320> <EACL> <5> 2023-12-18T02:33:08.978769 Entering disconnected mode, root: "https://cc-api-teamprojects.adobe.io:443"
+<2320> <HubSync> <5> 2023-12-18T02:33:08.978769 Terminating data server, url: "https://cc-api-teamprojects.adobe.io:443"
+<2320> <AnywhereLocalHub> <5> 2023-12-18T02:33:08.985762 Closing ProjectBox

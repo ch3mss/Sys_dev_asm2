@@ -1,0 +1,91 @@
+cr_sdk_initialize: Adobe Lightroom 7.5 (Windows), version 16.5x1953, 64-bit, Release
+    name                                    : NVIDIA GeForce RTX 3050 Ti Laptop GPU
+    VendorId                                : 4318
+    DeviceId                                : 9632
+    SubSysId                                : 535760963
+    Revision                                : 161
+    DedicatedVideoMemory                    : 4154458112
+    DedicatedSystemMemory                   : 0
+    SharedSystemMemory                      : 8279091200
+    MemoryBudget                            : 3531289396
+    AdapterLuid.LowPart                     : 72187
+    AdapterLuid.HighPart                    : 0
+    Flags                                   : 0
+        DoublePrecisionFloatShaderOps           : yes
+        ConservativeRasterizationTier           : 3
+        CrossNodeSharingTier                    : 0
+        ResourceBindingTier                     : 3
+        ResourceHeapTier                        : 2
+        TiledResourcesTier                      : 3
+        NodeIndex                               : 0
+        TileBasedRenderer                       : no
+        UMA                                     : no
+        CacheCoherentUMA                        : no
+        feature level                           : 0x00009100
+        feature level                           : 0x00009200
+        feature level                           : 0x00009300
+        feature level                           : 0x0000a000
+        feature level                           : 0x0000a100
+        feature level                           : 0x0000b000
+        feature level                           : 0x0000b100
+        feature level                           : 0x0000c000
+        feature level                           : 0x0000c100
+        MaxSupportedFeatureLevel                : 0x0000c100
+        HighestShaderModel                      : 0x60
+        WaveOps                                 : yes
+        WaveLaneCountMin                        : 32
+        WaveLaneCountMax                        : 32
+        TotalLaneCount                          : 2560
+        ExpandedComputeResourceStates           : yes
+        Int64ShaderOps                          : yes
+        RootSignature.HighestVersion            : 0x2
+    name                                    : AMD Radeon(TM) Graphics
+    VendorId                                : 4098
+    DeviceId                                : 5686
+    SubSysId                                : 535760963
+    Revision                                : 198
+    DedicatedVideoMemory                    : 520060928
+    DedicatedSystemMemory                   : 0
+    SharedSystemMemory                      : 8279091200
+    MemoryBudget                            : 8090759066
+    AdapterLuid.LowPart                     : 69826
+    AdapterLuid.HighPart                    : 0
+    Flags                                   : 0
+        DoublePrecisionFloatShaderOps           : yes
+        ConservativeRasterizationTier           : 3
+        CrossNodeSharingTier                    : 0
+        ResourceBindingTier                     : 3
+        ResourceHeapTier                        : 2
+        TiledResourcesTier                      : 3
+        NodeIndex                               : 0
+        TileBasedRenderer                       : no
+        UMA                                     : yes
+        CacheCoherentUMA                        : no
+        feature level                           : 0x00009100
+        feature level                           : 0x00009200
+        feature level                           : 0x00009300
+        feature level                           : 0x0000a000
+        feature level                           : 0x0000a100
+        feature level                           : 0x0000b000
+        feature level                           : 0x0000b100
+        feature level                           : 0x0000c000
+        feature level                           : 0x0000c100
+        MaxSupportedFeatureLevel                : 0x0000c100
+        HighestShaderModel                      : 0x60
+        WaveOps                                 : yes
+        WaveLaneCountMin                        : 64
+        WaveLaneCountMax                        : 64
+        TotalLaneCount                          : 448
+        ExpandedComputeResourceStates           : yes
+        Int64ShaderOps                          : yes
+        RootSignature.HighestVersion            : 0x2
+Windows cr_gpu_view backing scale: h=  1.0000, v=  1.0000
+first frame index is: 0
+ BuildSwapChain 'loupeView' format 23
+CalculateAutoTone: atvSDP
+factory not current -- re-creating...
+factory not current -- re-creating...
+Loaded adobe_c2pa: adobe_c2pa/0.9.3 c2pa-rs/0.31.0
+Dx Device Shutdown: AMD Radeon(TM) Graphics
+Dx Device Shutdown: NVIDIA GeForce RTX 3050 Ti Laptop GPU
+cr_sdk_terminate

@@ -1,0 +1,18 @@
+AddTimestampToLogFileNames	false	false
+AddUTCTimestampToTraces	false	false
+AdobeCleanFontSize	12	12
+ApplicationLanguage	en_US	en_US
+ApplicationLanguageBilingual	false	false
+CreateLogFilesThatDoNotExist	false	false
+LogTimeInTicks	true	true
+MaxLogSize	0	0
+Suppress D2D in Drover V7	false	false
+TraceAsync	false	false
+Use D2D Supplier	false	false
+UseAdobeCleanFont	true	true
+UseHostIOForFileSystem	false	false
+dvaappsupport.betafeature.SimulateExternalAdobeID	false	false
+dvaappsupport.betafeature.kReleasedOnly	false	false
+dvacore.MainThreadIOLevel	0	0
+dvaworkspace.FrameAndPanelClipOSChildren	false	
+sdm.logging.disable.dictionary.asserts	false	false

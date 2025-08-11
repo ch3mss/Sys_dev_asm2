@@ -1,0 +1,19 @@
+2022-12-02-08:18:50.254 PM Installing Teams Presence addin for Outlook...
+2022-12-02-08:18:50.256 PM Copying C:\Users\ADMIN\AppData\Local\Microsoft\Teams\current\resources\assets\tlb\Uc.tlb to C:\Users\ADMIN\AppData\Local\Microsoft\TeamsPresenceAddin
+2022-12-02-08:18:50.257 PM Copying C:\Users\ADMIN\AppData\Local\Microsoft\Teams\current\resources\assets\tlb\Uc.win32.tlb to C:\Users\ADMIN\AppData\Local\Microsoft\TeamsPresenceAddin
+2022-12-02-08:18:50.259 PM check if UC TypeLib points to current\resources\assets\tlb\Uc.tlb
+2022-12-02-08:18:50.262 PM Registering UC Typelib WIN32 under HKCU...
+2022-12-02-08:18:50.461 PM UC Typelib WIN32 successfully registered to C:\Users\ADMIN\AppData\Local\Microsoft\TeamsPresenceAddin\Uc.win32.tlb under HKCU!
+2022-12-02-08:18:50.464 PM Registering UC Typelib WIN64 under HKCU...
+2022-12-02-08:18:50.493 PM UC Typelib WIN64 successfully registered to C:\Users\ADMIN\AppData\Local\Microsoft\TeamsPresenceAddin\Uc.tlb under HKCU!
+2022-12-02-08:18:50.497 PM IM Provider registry key has been created!
+2023-01-08-05:57:31.714 CH Installing Teams Presence addin for Outlook...
+2023-01-08-05:57:31.716 CH check if UC TypeLib points to current\resources\assets\tlb\Uc.tlb
+2023-01-08-05:57:31.719 CH UC Typelib WIN32 is registered under HKCU and file exists. Registration not needed!
+2023-01-08-05:57:31.719 CH UC Typelib WIN64 is registered under HKCU and file exists. Registration not needed!
+2023-01-08-05:57:31.721 CH IM Provider registry key already exists!
+2024-03-13-08:17:50.381 SA Installing Teams Presence addin for Outlook...
+2024-03-13-08:17:50.381 SA check if UC TypeLib points to current\resources\assets\tlb\Uc.tlb
+2024-03-13-08:17:50.381 SA UC Typelib WIN32 is registered under HKCU and file exists. Registration not needed!
+2024-03-13-08:17:50.381 SA UC Typelib WIN64 is registered under HKCU and file exists. Registration not needed!
+2024-03-13-08:17:50.381 SA IM Provider registry key already exists!

@@ -1,0 +1,397 @@
+cr_sdk_initialize: Adobe Photoshop Camera Raw 15.0 (Windows), version 15.0x1264, 64-bit, Release
+gDNGMaxSIMD: 3
+Memory allocator: internal scalable (cr_memory_scalable_allocator)
+libdispatch threading: yes
+thread type: dispatch
+ACE thread type: dispatch
+PatchMatch initialized (version 5.90.0.0). Using 16 threads.
+CPU: AMD Ryzen 7 4800H with Radeon Graphics         
+OS: 10.0.22621.900
+MPProcessorCount (hyperthreading = false): 16
+MPProcessorCount (hyperthreading = true): 16
+MPThreadCount: 16
+std::thread::hardware_concurrency: 16
+AVX support: yes
+AVX2 support: yes
+AVX512 support: no
+System physical RAM: 7 GB
+Initialize GPU system
+Read GPU config
+New/changed GPU init digest, so zapping any TempDisableGPU2 and TempDisableGPU3 files.
+Safe load GPU
+Native16BitShaderOpsSupported: YES
+SupportsShaderModel_6_2_OrHigher: YES
+Supports FP16 for DX on WML: YES
+Building pipeline states for NVIDIA GeForce RTX 3050 Ti Laptop GPU
+    name                                    : NVIDIA GeForce RTX 3050 Ti Laptop GPU
+    VendorId                                : 4318
+    DeviceId                                : 9632
+    SubSysId                                : 535760963
+    Revision                                : 161
+    DedicatedVideoMemory                    : 4169138176
+    DedicatedSystemMemory                   : 0
+    SharedSystemMemory                      : 3984828416
+    MemoryBudget                            : 3543767451
+    AdapterLuid.LowPart                     : 73082
+    AdapterLuid.HighPart                    : 0
+    Flags                                   : 0
+        DoublePrecisionFloatShaderOps           : yes
+        ConservativeRasterizationTier           : 3
+        CrossNodeSharingTier                    : 0
+        ResourceBindingTier                     : 3
+        ResourceHeapTier                        : 2
+        TiledResourcesTier                      : 3
+        NodeIndex                               : 0
+        TileBasedRenderer                       : no
+        UMA                                     : no
+        CacheCoherentUMA                        : no
+        feature level                           : 0x00009100
+        feature level                           : 0x00009200
+        feature level                           : 0x00009300
+        feature level                           : 0x0000a000
+        feature level                           : 0x0000a100
+        feature level                           : 0x0000b000
+        feature level                           : 0x0000b100
+        feature level                           : 0x0000c000
+        feature level                           : 0x0000c100
+        MaxSupportedFeatureLevel                : 0x0000c100
+        HighestShaderModel                      : 0x60
+        WaveOps                                 : yes
+        WaveLaneCountMin                        : 32
+        WaveLaneCountMax                        : 32
+        TotalLaneCount                          : 2560
+        ExpandedComputeResourceStates           : yes
+        Int64ShaderOps                          : yes
+        RootSignature.HighestVersion            : 0x2
+Native16BitShaderOpsSupported: YES
+SupportsShaderModel_6_2_OrHigher: YES
+Supports FP16 for DX on WML: YES
+Building pipeline states for AMD Radeon(TM) Graphics
+    name                                    : AMD Radeon(TM) Graphics
+    VendorId                                : 4098
+    DeviceId                                : 5686
+    SubSysId                                : 535760963
+    Revision                                : 198
+    DedicatedVideoMemory                    : 520060928
+    DedicatedSystemMemory                   : 0
+    SharedSystemMemory                      : 3984828416
+    MemoryBudget                            : 4054400410
+    AdapterLuid.LowPart                     : 70657
+    AdapterLuid.HighPart                    : 0
+    Flags                                   : 0
+        DoublePrecisionFloatShaderOps           : yes
+        ConservativeRasterizationTier           : 3
+        CrossNodeSharingTier                    : 0
+        ResourceBindingTier                     : 3
+        ResourceHeapTier                        : 2
+        TiledResourcesTier                      : 3
+        NodeIndex                               : 0
+        TileBasedRenderer                       : no
+        UMA                                     : yes
+        CacheCoherentUMA                        : no
+        feature level                           : 0x00009100
+        feature level                           : 0x00009200
+        feature level                           : 0x00009300
+        feature level                           : 0x0000a000
+        feature level                           : 0x0000a100
+        feature level                           : 0x0000b000
+        feature level                           : 0x0000b100
+        feature level                           : 0x0000c000
+        feature level                           : 0x0000c100
+        MaxSupportedFeatureLevel                : 0x0000c100
+        HighestShaderModel                      : 0x60
+        WaveOps                                 : yes
+        WaveLaneCountMin                        : 64
+        WaveLaneCountMax                        : 64
+        TotalLaneCount                          : 448
+        ExpandedComputeResourceStates           : yes
+        Int64ShaderOps                          : yes
+        RootSignature.HighestVersion            : 0x2
+Loaded GPU system: DirectX
+GPU primary driver version: 31.0.15.2756
+GPU device count: 1
+GPU device names: NVIDIA GeForce RTX 3050 Ti Laptop GPU
+GPU3 allow list: yes
+GPU3 deny list: no
+GPU3 prev digest: 00000000000000000000000000000000
+GPU3 new digest: 4819EABF5AA84DF37C853BDB2277A24B
+Need to run gpu self tests : True.
+New/changed sanity digest, so zapping any TempDisableGPU3 files
+GPU Init Status (part 1): I2_GPU2
+GPU3 Hard Status Result (part 1): unknown
+GPU3 Soft Status Result (part 1): success
+GPU4 Hard Status Result (part 1): unknown
+GPU4 Soft Status Result (part 1): fail_insufficient_memory
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (1/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (2/257)
+Intel Compiler: no
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (3/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (4/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (5/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (6/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (7/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (8/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (9/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (10/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (11/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (12/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (13/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (14/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (15/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (16/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (17/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (18/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (19/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (20/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (21/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (22/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (23/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (24/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (25/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (26/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (27/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (28/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (29/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (30/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (31/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (32/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (33/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (34/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (35/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (36/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (37/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (38/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (39/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (40/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (41/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (42/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (43/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (44/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (45/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (46/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (47/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (48/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (49/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (50/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (51/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (52/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (53/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (54/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (55/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (56/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (57/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (58/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (59/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (60/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (61/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (62/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (63/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (64/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (65/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (66/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (67/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (68/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (69/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (70/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (71/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (72/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (73/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (74/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (75/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (76/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (77/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (78/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (79/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (80/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (81/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (82/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (83/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (84/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (85/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (86/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (87/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (88/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (89/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (90/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (91/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (92/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (93/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (94/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (95/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (96/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (97/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (98/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (99/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (100/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (101/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (102/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (103/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (104/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (105/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (106/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (107/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (108/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (109/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (110/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (111/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (112/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (113/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (114/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (115/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (116/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (117/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (118/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (119/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (120/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (121/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (122/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (123/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (124/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (125/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (126/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (127/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (128/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (129/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (130/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (131/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (132/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (133/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (134/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (135/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (136/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (137/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (138/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (139/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (140/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (141/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (142/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (143/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (144/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (145/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (146/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (147/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (148/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (149/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (150/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (151/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (152/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (153/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (154/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (155/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (156/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (157/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (158/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (159/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (160/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (161/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (162/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (163/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (164/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (165/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (166/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (167/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (168/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (169/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (170/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (171/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (172/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (173/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (174/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (175/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (176/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (177/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (178/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (179/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (180/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (181/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (182/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (183/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (184/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (185/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (186/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (187/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (188/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (189/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (190/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (191/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (192/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (193/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (194/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (195/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (196/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (197/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (198/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (199/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (200/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (201/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (202/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (203/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (204/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (205/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (206/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (207/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (208/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (209/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (210/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (211/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (212/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (213/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (214/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (215/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (216/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (217/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (218/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (219/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (220/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (221/257)
+WML: Try use GPU? yes
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (222/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (223/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (224/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (225/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (226/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (227/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (228/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (229/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (230/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (231/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (232/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (233/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (234/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (235/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (236/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (237/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (238/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (239/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (240/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (241/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (242/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (243/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (244/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (245/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (246/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (247/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (248/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (249/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (250/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (251/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (252/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (253/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (254/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (255/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (256/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Building compute pipeline state (257/257)
+NVIDIA GeForce RTX 3050 Ti Laptop GPU: Finished building compute pipeline states.
+Begin cr_gpu_test::RunSanity (quick = False, doing init = True).
+Bounds of image A are: 1000 and 1000
+Bounds of image B are: 1000 and 1000
+Completed cr_gpu_test::RunSanity successfully.
+GPU Init Status (part 2): I4_GPU3
+GPU3 Hard Status Result (part 2): success
+GPU3 Soft Status Result (part 2): success
+GPU4 Hard Status Result (part 2): success
+GPU4 Soft Status Result (part 2): fail_insufficient_memory
+Terminate GPU system
+Dx Device Shutdown: AMD Radeon(TM) Graphics
+Dx Device Shutdown: NVIDIA GeForce RTX 3050 Ti Laptop GPU
+cr_sdk_terminate

@@ -1,0 +1,6 @@
+To do (Restaurant management system)
+ - Review w4 - w5  ~done~
+ - General outlook of customer (diagram) ~processing~
+ - Table of data from general to database
+ - Database explaination by schema
+

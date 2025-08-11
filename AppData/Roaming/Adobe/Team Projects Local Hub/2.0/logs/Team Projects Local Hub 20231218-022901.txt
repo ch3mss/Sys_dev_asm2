@@ -1,0 +1,10 @@
+Log file created: 12/18/23 02:29:01
+-------------------------------------
+<4036> <AnywhereLocalHub> <5> 2023-12-18T02:29:01.051091 TeamProjectsLocalHub.2, platform: "Windows", sysVersion: "2.0.DVA_PATCH_VERSION", dvaVersion: "24.1.0", build: "", dataModel: "2.0.1", suiteClient: "2024"
+<9460> <LiveEditClient> <0> 2023-12-18T02:29:01.116226 nil threadID='9460()', "event.type":"initSDK" , "les.analyticsEnabled":"0"
+<4036> <AnywhereLocalHub> <5> 2023-12-18T02:29:01.122151 Started local HTTP server, port: 49980
+<9460> <AnywhereLocalHub> <5> 2023-12-18T02:29:01.124354 Client connected, session: 3
+<9460> <AnywhereLocalHub> <5> 2023-12-18T02:29:01.126862 Client connected, info: {"build":"68","name":"Adobe Media Encoder","version":"24.1.0"}, session: 3
+<2784> <AnywhereLocalHub> <5> 2023-12-18T02:29:34.639557 Client disconnected, session: 3
+<4036> <AnywhereLocalHub> <5> 2023-12-18T02:29:39.650895 Closing SyncBox
+<4036> <AnywhereLocalHub> <5> 2023-12-18T02:29:39.650895 Closing ProjectBox

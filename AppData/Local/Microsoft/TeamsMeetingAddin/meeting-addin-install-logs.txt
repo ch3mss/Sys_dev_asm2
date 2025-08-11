@@ -1,0 +1,38 @@
+2022-12-02-08:18:49.907 PM System.ArgumentException: Cannot delete a subkey tree because the subkey does not exist.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at Microsoft.Win32.RegistryKey.DeleteSubKeyTree(String subkey, Boolean throwOnMissingSubKey)
+   at Microsoft.Win32.RegistryKey.DeleteSubKeyTree(String subkey)
+   at Squirrel.MeetingAddinInstaller.<InstallMeetingAddinAsync>d__15.MoveNext()
+2022-12-02-08:18:49.908 PM StagedAppDirectory does not exist. Using Current
+2022-12-02-08:18:49.908 PM There is no version.txt. Falling back to getting version from folder name
+2022-12-02-08:18:49.909 PM Version: 1.0.22272.2; addinPackageDirectory: 1.0.22272.2
+2022-12-02-08:18:49.910 PM .dead exists: False
+2022-12-02-08:18:49.910 PM before cleanup unused versions
+2022-12-02-08:18:50.007 PM Addin directory exists. Copy was successful
+2022-12-02-08:18:50.009 PM COM registration. Regsvr Path: C:\Windows\system32\regsvr32.exe, Arguments: /s /n /i:user "C:\Users\ADMIN\AppData\Local\Microsoft\TeamsMeetingAddin\1.0.22272.2\x64\Microsoft.Teams.AddinLoader.dll"
+2022-12-02-08:18:50.251 PM Version 1.0.22272.2 of the meeting add-in is now installed
+2023-01-08-05:57:31.335 CH System.ArgumentException: Cannot delete a subkey tree because the subkey does not exist.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at Microsoft.Win32.RegistryKey.DeleteSubKeyTree(String subkey, Boolean throwOnMissingSubKey)
+   at Microsoft.Win32.RegistryKey.DeleteSubKeyTree(String subkey)
+   at Squirrel.MeetingAddinInstaller.<InstallMeetingAddinAsync>d__15.MoveNext()
+2023-01-08-05:57:31.335 CH There is no version.txt. Falling back to getting version from folder name
+2023-01-08-05:57:31.336 CH Version: 1.0.22304.2; addinPackageDirectory: 1.0.22304.2
+2023-01-08-05:57:31.336 CH .dead exists: False
+2023-01-08-05:57:31.337 CH before cleanup unused versions
+2023-01-08-05:57:31.425 CH Addin directory exists. Copy was successful
+2023-01-08-05:57:31.426 CH COM registration. Regsvr Path: C:\WINDOWS\system32\regsvr32.exe, Arguments: /s /n /i:user "C:\Users\ADMIN\AppData\Local\Microsoft\TeamsMeetingAddin\1.0.22304.2\x64\Microsoft.Teams.AddinLoader.dll"
+2023-01-08-05:57:31.711 CH Version 1.0.22304.2 of the meeting add-in is now installed
+2024-03-13-08:17:50.063 SA System.ArgumentException: Cannot delete a subkey tree because the subkey does not exist.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at Microsoft.Win32.RegistryKey.DeleteSubKeyTree(String subkey, Boolean throwOnMissingSubKey)
+   at Microsoft.Win32.RegistryKey.DeleteSubKeyTree(String subkey)
+   at Squirrel.MeetingAddinInstaller.<InstallMeetingAddinAsync>d__15.MoveNext()
+2024-03-13-08:17:50.063 SA StagedAppDirectory does not exist. Using Current
+2024-03-13-08:17:50.063 SA There is no version.txt. Falling back to getting version from folder name
+2024-03-13-08:17:50.063 SA Version: 1.0.24022.3; addinPackageDirectory: 1.0.24022.3
+2024-03-13-08:17:50.063 SA .dead exists: False
+2024-03-13-08:17:50.063 SA before cleanup unused versions
+2024-03-13-08:17:50.128 SA Addin directory exists. Copy was successful
+2024-03-13-08:17:50.128 SA COM registration. Regsvr Path: C:\WINDOWS\system32\regsvr32.exe, Arguments: /s /n /i:user "C:\Users\ADMIN\AppData\Local\Microsoft\TeamsMeetingAddin\1.0.24022.3\x64\Microsoft.Teams.AddinLoader.dll"
+2024-03-13-08:17:50.381 SA Version 1.0.24022.3 of the meeting add-in is now installed

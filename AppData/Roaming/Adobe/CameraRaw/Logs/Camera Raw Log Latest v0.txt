@@ -1,0 +1,84 @@
+    name                                    : NVIDIA GeForce RTX 3050 Ti Laptop GPU
+    VendorId                                : 4318
+    DeviceId                                : 9632
+    SubSysId                                : 535760963
+    Revision                                : 161
+    DedicatedVideoMemory                    : 4169138176
+    DedicatedSystemMemory                   : 0
+    SharedSystemMemory                      : 3984828416
+    MemoryBudget                            : 3543767451
+    AdapterLuid.LowPart                     : 73082
+    AdapterLuid.HighPart                    : 0
+    Flags                                   : 0
+        DoublePrecisionFloatShaderOps           : yes
+        ConservativeRasterizationTier           : 3
+        CrossNodeSharingTier                    : 0
+        ResourceBindingTier                     : 3
+        ResourceHeapTier                        : 2
+        TiledResourcesTier                      : 3
+        NodeIndex                               : 0
+        TileBasedRenderer                       : no
+        UMA                                     : no
+        CacheCoherentUMA                        : no
+        feature level                           : 0x00009100
+        feature level                           : 0x00009200
+        feature level                           : 0x00009300
+        feature level                           : 0x0000a000
+        feature level                           : 0x0000a100
+        feature level                           : 0x0000b000
+        feature level                           : 0x0000b100
+        feature level                           : 0x0000c000
+        feature level                           : 0x0000c100
+        MaxSupportedFeatureLevel                : 0x0000c100
+        HighestShaderModel                      : 0x60
+        WaveOps                                 : yes
+        WaveLaneCountMin                        : 32
+        WaveLaneCountMax                        : 32
+        TotalLaneCount                          : 2560
+        ExpandedComputeResourceStates           : yes
+        Int64ShaderOps                          : yes
+        RootSignature.HighestVersion            : 0x2
+    name                                    : AMD Radeon(TM) Graphics
+    VendorId                                : 4098
+    DeviceId                                : 5686
+    SubSysId                                : 535760963
+    Revision                                : 198
+    DedicatedVideoMemory                    : 520060928
+    DedicatedSystemMemory                   : 0
+    SharedSystemMemory                      : 3984828416
+    MemoryBudget                            : 4054400410
+    AdapterLuid.LowPart                     : 70657
+    AdapterLuid.HighPart                    : 0
+    Flags                                   : 0
+        DoublePrecisionFloatShaderOps           : yes
+        ConservativeRasterizationTier           : 3
+        CrossNodeSharingTier                    : 0
+        ResourceBindingTier                     : 3
+        ResourceHeapTier                        : 2
+        TiledResourcesTier                      : 3
+        NodeIndex                               : 0
+        TileBasedRenderer                       : no
+        UMA                                     : yes
+        CacheCoherentUMA                        : no
+        feature level                           : 0x00009100
+        feature level                           : 0x00009200
+        feature level                           : 0x00009300
+        feature level                           : 0x0000a000
+        feature level                           : 0x0000a100
+        feature level                           : 0x0000b000
+        feature level                           : 0x0000b100
+        feature level                           : 0x0000c000
+        feature level                           : 0x0000c100
+        MaxSupportedFeatureLevel                : 0x0000c100
+        HighestShaderModel                      : 0x60
+        WaveOps                                 : yes
+        WaveLaneCountMin                        : 64
+        WaveLaneCountMax                        : 64
+        TotalLaneCount                          : 448
+        ExpandedComputeResourceStates           : yes
+        Int64ShaderOps                          : yes
+        RootSignature.HighestVersion            : 0x2
+Bounds of image A are: 1000 and 1000
+Bounds of image B are: 1000 and 1000
+Dx Device Shutdown: AMD Radeon(TM) Graphics
+Dx Device Shutdown: NVIDIA GeForce RTX 3050 Ti Laptop GPU

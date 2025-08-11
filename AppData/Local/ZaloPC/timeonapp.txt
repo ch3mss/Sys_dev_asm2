@@ -1,0 +1,1 @@
+{"foreground":[],"background":{"time":1731422943094,"type":2,"subType":1,"sourceType":0,"duration":102897565,"networkStartType":0,"socketStatus":1,"timeStartSession":1731320045529}}

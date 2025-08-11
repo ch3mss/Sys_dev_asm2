@@ -1,0 +1,6 @@
+AdobeCleanFontSize	11	12
+Show Windows Console	false	false
+UseAdobeCleanFont	false	true
+assert.enabled	true	
+dvacore.MainThreadIOLevel	0	0
+dvaui.skinmanager.UseV7SkinOverride	false	false

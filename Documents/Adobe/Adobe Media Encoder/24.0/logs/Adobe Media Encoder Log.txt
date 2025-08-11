@@ -1,0 +1,21 @@
+Log file created: 12/18/23 02:29:00
+-------------------------------------
+Ticks = 360      <8396> <IR.InitIpp> <5> ippInit warning: ippStsNonIntelCpu: The target CPU is not Genuine Intel
+Ticks = 360      <8396> <IR.InitIpp> <5> ippInit warning: ippStsNonIntelCpu: The target CPU is not Genuine Intel
+Ticks = 360      <8396> <IR.InitIpp> <5> ippInit warning: ippStsNonIntelCpu: The target CPU is not Genuine Intel
+Ticks = 391      <19624> <DynamicLink> <5> Increase wait time to 2
+Ticks = 985      <19064> <AnywhereLocalClient> <5> Local Hub HTTP port retrieved, port: 49980
+Ticks = 19375      <8396> <DisplaySurface> <5> [DirectX] Initializing DirectXContext...
+Ticks = 19579      <8396> <DisplaySurface> <5> [DirectX] Initialize DirectXContext succeeded.
+Ticks = 21266      <8396> <IR.InitIpp> <5> ippInit warning: ippStsNonIntelCpu: The target CPU is not Genuine Intel
+Ticks = 24766      <8396> <AMEApp> <0> Time taken to load MediaCore plugins: 5192.47 milliseconds.
+Ticks = 24954      <8396> <frameio> <5> Building frame.io URLs with prod endpoint api.frame.io
+Ticks = 24954      <8396> <frameio> <5> Building frame.io URLs with prod endpoint api.frame.io
+Ticks = 26422      <8396> <AMEApp> <1> Entering RunEventLoop
+Ticks = 29329      <15408> <GPUFoundation.LoadModule> <4> Excessive Load time, ModuleName: "PixelFormatConvert_BiPlanar_Frame", LoadTimeMs: 6323.880859375, Framework: "CUDA"
+Ticks = 32797      <15408> <GPUFoundation.LoadModule> <4> Excessive Load time, ModuleName: "PixelFormatConvert_420", LoadTimeMs: 3459.8447265625, Framework: "CUDA"
+Ticks = 33797      <19064> <LoadProject> <0> 0.40153s
+Ticks = 33813      <8396> <AMEApp> <1> Exited RunEventLoop
+--------------------------------------
+Log file closed: 12/18/23 02:29:34
+

@@ -1,0 +1,54 @@
+winget
+winget install google chrome
+winget install google-chrome
+winget search chrome
+winget install google.chrome
+winget search utraviewer
+winget search winrar
+winget install winrar
+winget search ultraview
+winget install ultraview
+winget install ultraviewer
+npm init -y
+npm install express body-parser
+npm init -y
+npm install express body-parser
+npm init -y
+npm install express body-parser
+npm init -y`
+npm install express body-parser
+node -v
+npm init -y`
+npm install express body-parser
+npm init -y`
+>> npm install express body-parser 
+npm init -y
+npm -v
+npm init -y`
+npm install express body-parser
+cd .\Downloads\
+cat .\nick-test.ovpn
+vi .\nick-test.ovpn
+nano .\nick-test.ovpn
+cat .\nick-test.ovpn
+cd .\Downloads\
+ipconfig
+ssh
+ssh -p 22 chem@10.0.2.15
+ssh -p 22 chems@10.0.2.15
+ssh -p 22 chems@172.17.0.1
+ssh chems@172.17.0.1
+ssh chems@10.0.2.15
+ssh -p 22 chems@10.0.2.15
+ssh -p 22 chems@172.17.0.1
+ssh chems@172.17.0.1
+ssh chems@10.0.2.15
+ssh chems@172.17.0.1
+ssh chems@172.17.0.1 -p 22
+ls
+vi chem.ovpn
+nano chem.ovpn
+touch chem.ovpn
+vi 
+vi
+vim

@@ -1,0 +1,12 @@
+Lifetime	1	5
+OS_Window	1	5
+SVGNative.CSS	1	5
+SVGNative.Draw	1	5
+SVGNative.Parse	1	5
+SystemCompatibilityReport	1	5
+drawbotagm	1	5
+drawbotagm.AGMSurfaceInterface	1	5
+dvacore.appstatemanager	1	5
+dvacore::Client	1	5
+dvacore::config::Initialize	1	5
+uxp	1	5

@@ -1,0 +1,7 @@
+AddUTCTimestampToTraces	false	false
+CreateLogFilesThatDoNotExist	false	false
+DvaMarshalRPCLogging	false	false
+LaunchWinProcessesFromOwnDirectory	false	false
+LogTimeInTicks	true	true
+dvaappsupport.AppLaunchAsyncDLM	true	true
+sdm.assert.on.use.after.termination	false	false

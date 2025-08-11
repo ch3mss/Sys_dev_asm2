@@ -1,0 +1,1 @@
+{"url":"https://res-update-pc.zadn.vn/win/modules/ZaloModule-24.5.1_24.4.1-RC6.zip","checksum":"511b228b8b9d22012bd52d9b680d6b2738c1a2e2efc3346ea7dca19349ec3ecd","downloaded":108032000}

@@ -1,0 +1,4 @@
+AddTimestampToLogFileNames	true	
+AddUTCTimestampToTraces	true	
+CreateLogFilesThatDoNotExist	true	
+dvacore.MainThreadIOLevel	0	0

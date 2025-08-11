@@ -1,0 +1,8 @@
+﻿ExcludeList.txt
+Log
+StartMenu_Icon
+Config
+LinkedApp_Icon_Temp
+LinkedApp_Icon
+LocalData
+Peripheral

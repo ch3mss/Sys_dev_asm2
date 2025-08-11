@@ -1,0 +1,154 @@
+{
+  "RecommendationCategories": [
+    {
+      "IsEnabled": true,
+      "Name": "Accessories",
+      "CategoryName": "accessory"
+    },
+    {
+      "IsEnabled": true,
+      "Name": "Audio",
+      "CategoryName": "audio"
+    },
+    {
+      "IsEnabled": true,
+      "Name": "Chroma HDK",
+      "CategoryName": "chroma_hdk"
+    },
+    {
+      "IsEnabled": true,
+      "Name": "Keyboards",
+      "CategoryName": "keyboard"
+    },
+    {
+      "IsEnabled": true,
+      "Name": "Keypads",
+      "CategoryName": "keypad"
+    },
+    {
+      "IsEnabled": true,
+      "Name": "Mats",
+      "CategoryName": "mousemat"
+    },
+    {
+      "IsEnabled": true,
+      "Name": "Mice",
+      "CategoryName": "mouse"
+    },
+    {
+      "IsEnabled": true,
+      "Name": "Monitors",
+      "CategoryName": "monitor"
+    },
+    {
+      "IsEnabled": true,
+      "Name": "Streaming",
+      "CategoryName": "streaming"
+    }
+  ],
+  "DashboardExpanderList": [
+    "devices",
+    "modules",
+    "recommendations",
+    "services",
+    "connectedDevices"
+  ],
+  "MonitorPip": 1,
+  "MonitorFps": 1,
+  "IsMouseCalibrationSensorFirmwireUpdated": {},
+  "PIDToS3Features": {},
+  "IsStartUp": "1",
+  "PluginImagesUpdated": "0",
+  "WelcomeDismiss": "0",
+  "MinimumWidth": 0,
+  "Rating": 0,
+  "LastRateDateTime": "0001-01-01T00:00:00",
+  "LastActiveDateTime": "2024-11-21T00:00:00+07:00",
+  "CumulativeActiveDay": 31,
+  "hasConfigurationChange": false,
+  "IsBrightnessEnables": 1,
+  "FeedBackURL": "http://www.razersupport.com/contact-us",
+  "MinimumAppWidth": 1024.0,
+  "MinimumAppHeight": 720.0,
+  "IsBasicMode": false,
+  "IsFromDashboard": false,
+  "MacroID": "00000000-0000-0000-0000-000000000000",
+  "CurrentCulture": "en-US",
+  "CurrentCultureIndex": 0,
+  "AddNewLightpac": false,
+  "SensitivityMode": true,
+  "IsLightingAdvance": false,
+  "IsChromaStudioInstalled": true,
+  "IsRecommendationExpanded": true,
+  "IsNewReleaseExpanded": true,
+  "IsPartnerDealExpanded": true,
+  "IsUninstalled": false,
+  "CoverArtDefaultColor": "44D62C",
+  "LinkDevicePopup": false,
+  "ShowDisabledApps": true,
+  "ShowGuestLoginMessage": true,
+  "ShowCompatibleApps": true,
+  "CalibrationDismiss": "0",
+  "DashboardTutorialDismiss": "1",
+  "LastSetAppWidth": 1024.0,
+  "LastSetAppHeight": 720.0,
+  "LastSetAppLeft": 320.0,
+  "LastSetAppTop": 180.0,
+  "IsSynapseFirstLoad": false,
+  "IsLastMaximized": false,
+  "IsHybridStorageFirstLoad": false,
+  "IsApplicationGameProfilesFirstLoad": true,
+  "IsHypershiftFirstLoad": false,
+  "IsAdvanceLightingTutorial": false,
+  "IsSmartHomeLightingFirstLoad": true,
+  "IsSynapseOverrideFirstLoad": false,
+  "IsSmartHomeDevicesFirstLoad": true,
+  "IsSmartHomeModeFirstLoad": true,
+  "IsFirstLoad": true,
+  "IsCameraFirstLoad": true,
+  "IsSpatialAudioFirstLoad": true,
+  "IsWristRestFirstLoad": true,
+  "IsScrollModeSwitchFirstLoad": true,
+  "IsScrollWheelModeFirstLoad": true,
+  "IsDonglePairingtFirstLoad": true,
+  "WindowsHighContrastTheme": false,
+  "IsChromaStudioTutorialEnabled": true,
+  "IsAlexaTutorialEnabled": true,
+  "IsOSDNotificationEnabled": true,
+  "IsRecommendationsEnabled": true,
+  "IsNewReleaseEnabled": true,
+  "IsPartnerDealsEnabled": true,
+  "IsScrollWheelStageFirstLoad": true,
+  "IsCustomScrollWheelStageFirstLoad": true,
+  "PreviewState": true,
+  "mixerShowDBSettings": {
+    "dBSetting_LineOutRoute": false,
+    "dBSetting_MixerControl": false,
+    "dBSetting_MixerMicSetup": false,
+    "dBSetting_PlayBackMixRoute": false,
+    "dBSetting_StreamMix": false,
+    "dBSetting_VoiceChatRoute": false
+  },
+  "PreviewValue": "Normal",
+  "ShowChromaStudioTools": true,
+  "MonitorSourceConfirmation": false,
+  "SynapseOSDNotificationSettings": {
+    "HideAdapterWarningNotification": false,
+    "HideInsufficientPowerNotification": false,
+    "HideBladePerformanceModeNotification": false,
+    "HideTrackPadNotification": false,
+    "HideRefreshRateNotification": false,
+    "HideMultipleControllerDetectionNotification": false,
+    "HideBatteryHealthNotification": false,
+    "HideBatteryOverrideNotification": false,
+    "FirmwareUpdateNotification": {
+      "HideFirmwareUpdateNotification": {}
+    }
+  },
+  "EnableCamaraPreview": true,
+  "EnableCameraPreview": {},
+  "IsDeviceFirstLoad": {},
+  "SystemDisplayDpiPercentageToSet": 0,
+  "SavedSystemDisplayDpiPercentage": 0,
+  "LastPluggedInTime": "0001-01-01T00:00:00"
+}

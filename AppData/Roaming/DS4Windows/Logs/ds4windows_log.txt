@@ -1,0 +1,23 @@
+2023-12-11 15:51:57.9783|INFO|DS4Windows version 3.2.21
+2023-12-11 15:51:57.9783|INFO|DS4Windows exe file: DS4Windows.exe
+2023-12-11 15:51:57.9783|INFO|DS4Windows Assembly Architecture: x64
+2023-12-11 15:51:57.9783|INFO|OS Version: Microsoft Windows NT 10.0.22631.0
+2023-12-11 15:51:57.9783|INFO|OS Product Name: Windows 10 Home Single Language
+2023-12-11 15:51:57.9783|INFO|OS Release ID: 2009
+2023-12-11 15:51:57.9783|INFO|System Architecture: x64
+2023-12-11 15:51:57.9783|INFO|Logger created
+2023-12-11 15:51:58.0693|INFO|LinkedProfiles.xml can't be found.
+2023-12-11 15:51:58.8537|INFO|Running as User
+2023-12-11 15:51:58.8537|INFO|HidHide control device found
+2023-12-11 15:51:59.8798|INFO|Starting...
+2023-12-11 15:52:01.8806|INFO|Some applications may block controller inputs. (Windows UAC Conflictions). Please go to https://ryochan7.github.io/ds4windows-site/troubleshooting/kb-mouse-issues/#windows-not-responding-to-ds4ws-kb-m-commands-in-some-situations for more information and workarounds.
+2023-12-11 15:52:01.8806|INFO|Using output KB+M handler: SendInput
+2023-12-11 15:52:01.8806|INFO|Connection to ViGEmBus 1.17.333.0 established
+2023-12-11 15:52:01.8806|INFO|Searching for controllers...
+2023-12-11 15:52:01.8806|INFO|Using Shared Mode
+2023-12-11 16:06:38.7348|INFO|User Session Ending
+2023-12-11 16:06:38.7519|INFO|Stopping Virtual Output Controllers
+2023-12-11 16:06:38.7519|INFO|Closing connection to ViGEmBus
+2023-12-11 16:06:38.7519|INFO|Stopping DS4 Input Controllers
+2023-12-11 16:06:38.7548|INFO|Stopped DS4Windows
+2023-12-11 16:06:38.7548|INFO|Closing connection to output handler SendInput
