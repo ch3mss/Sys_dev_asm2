@@ -1,0 +1,173 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main, master, develop, 'feature/*' ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    name: Static Code Analysis (Lint)
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm ci
+    
+    - name: Run ESLint
+      run: npm run test:lint
+
+  unit-test:
+    runs-on: ubuntu-latest
+    name: Unit Tests & Coverage
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm ci
+    
+    - name: Run Unit Tests
+      run: npm run test:unit
+    
+    - name: Upload Coverage Reports
+      uses: actions/upload-artifact@v4
+      with:
+        name: coverage-report
+        path: coverage/
+
+  integration-test:
+    runs-on: ubuntu-latest
+    name: Integration Tests
+    
+    services:
+      mongodb:
+        image: mongo:4.4
+        ports:
+          - 27017:27017
+        options: >-
+          --health-cmd mongosh
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm ci
+    
+    - name: Wait for MongoDB
+      run: sleep 10
+    
+    - name: Run Integration Tests
+      run: npm run test:integration
+      env:
+        MONGODB_URI: mongodb://localhost:27017/notes-test
+
+  e2e-test:
+    runs-on: ubuntu-latest
+    name: End-to-End Tests
+    
+    services:
+      mongodb:
+        image: mongo:4.4
+        ports:
+          - 27017:27017
+        options: >-
+          --health-cmd mongosh
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm ci
+    
+    - name: Install Playwright Browsers
+      run: npx playwright install --with-deps
+    
+    - name: Wait for MongoDB
+      run: sleep 10
+    
+    - name: Start Application
+      run: |
+        npm start &
+        sleep 15
+        curl -f http://localhost:3000 || exit 1
+      env:
+        MONGODB_URI: mongodb://localhost:27017/notes-test
+    
+    - name: Run E2E Tests
+      run: npm run test:e2e
+    
+    - name: Upload E2E Test Results
+      uses: actions/upload-artifact@v4
+      if: failure()
+      with:
+        name: e2e-test-results
+        path: test-results/
+
+  build:
+    runs-on: ubuntu-latest
+    name: Build Artifact
+    needs: [lint, unit-test, integration-test, e2e-test]
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm ci
+    
+    - name: Create deployment package
+      run: |
+        mkdir -p dist
+        cp -r src dist/ 2>/dev/null || true
+        cp -r public dist/ 2>/dev/null || true
+        cp -r views dist/ 2>/dev/null || true
+        cp package*.json dist/
+        cp app.js dist/ 2>/dev/null || true
+        cp *.js dist/ 2>/dev/null || true
+        tar -czf notes-app-${{ github.sha }}.tar.gz dist/
+    
+    - name: Upload Build Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: notes-app-${{ github.sha }}
+        path: notes-app-${{ github.sha }}.tar.gz

@@ -1,0 +1,180 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main, master, develop, 'feature/*' ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    name: Static Code Analysis (Lint)
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+    
+    - name: Install dependencies
+      working-directory: ./src
+      run: npm install
+    
+    - name: Run ESLint
+      working-directory: ./src
+      run: npm run lint
+
+  unit-test:
+    runs-on: ubuntu-latest
+    name: Unit Tests & Coverage
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+    
+    - name: Install dependencies
+      working-directory: ./src
+      run: npm install
+    
+    - name: Run Unit Tests
+      working-directory: ./src
+      run: npm run test
+
+  coverage-test:
+    runs-on: ubuntu-latest
+    name: Test Coverage Report
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+    
+    - name: Install dependencies
+      working-directory: ./src
+      run: npm install
+    
+    - name: Run Coverage Tests
+      working-directory: ./src
+      run: npm run test:coverage
+
+  integration-test:
+    runs-on: ubuntu-latest
+    name: Integration Tests
+    
+    services:
+      mongodb:
+        image: mongo:4.4
+        ports:
+          - 27017:27017
+        options: >-
+          --health-cmd "mongosh --eval 'db.adminCommand(\"ping\")'"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+    
+    - name: Install dependencies
+      working-directory: ./src
+      run: npm install
+    
+    - name: Wait for MongoDB
+      run: sleep 10
+    
+    - name: Run Integration Tests
+      working-directory: ./src
+      run: npm run test:integration
+      env:
+        MONGODB_URI: mongodb://localhost:27017/notes-test
+
+  e2e-test:
+    runs-on: ubuntu-latest
+    name: End-to-End Tests
+    
+    services:
+      mongodb:
+        image: mongo:4.4
+        ports:
+          - 27017:27017
+        options: >-
+          --health-cmd "mongosh --eval 'db.adminCommand(\"ping\")'"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+    
+    - name: Install dependencies
+      working-directory: ./src
+      run: npm install
+    
+    - name: Install Playwright Browsers
+      working-directory: ./src
+      run: npx playwright install --with-deps
+    
+    - name: Wait for MongoDB
+      run: sleep 10
+    
+    - name: Start Application in Background
+      working-directory: ./src
+      run: |
+        npm start &
+        sleep 15
+      env:
+        MONGODB_URI: mongodb://localhost:27017/notes-test
+    
+    - name: Run E2E Tests
+      working-directory: ./src
+      run: npm run test:e2e
+
+  build:
+    runs-on: ubuntu-latest
+    name: Build Artifact
+    needs: [lint, unit-test, coverage-test, integration-test, e2e-test]
+    if: github.ref == 'refs/heads/main'
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+    
+    - name: Install dependencies
+      working-directory: ./src
+      run: npm install
+    
+    - name: Create deployment package
+      run: |
+        mkdir -p dist
+        cp -r src/* dist/
+        tar -czf notes-app-${{ github.sha }}.tar.gz dist/
+    
+    - name: Upload Build Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: notes-app-${{ github.sha }}
+        path: notes-app-${{ github.sha }}.tar.gz
